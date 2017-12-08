@@ -1,0 +1,10 @@
+body{
+	font-family: 'Barlow Condensed', sans-serif;
+}
+li,a{
+	float:left;
+	display:inline-block;
+	height:100px;
+	text-decoration:none;
+	margin:0 auto;
+}
