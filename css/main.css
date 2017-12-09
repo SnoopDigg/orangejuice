@@ -1,10 +1,26 @@
 body{
 	font-family: 'Barlow Condensed', sans-serif;
 }
-li,a{
-	float:left;
-	display:inline-block;
-	height:100px;
-	text-decoration:none;
+/*navbar needs width and height so that the div(the whole bar)
+has a width and height to center everything to*/
+.navbar{
+	width:100%;
+	height:44px;
+}
+/**/
+nav{
+	background-color:#333;
+	text-align:center;
+}
+nav ul{
 	margin:0 auto;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 44px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding:44px;
 }
