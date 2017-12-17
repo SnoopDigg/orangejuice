@@ -1,0 +1,111 @@
+body{
+	font-family: 'Barlow Condensed', sans-serif;
+}
+/*selects entire topnavbar*/
+div.topnav{
+	background-color: #FE7E00;
+	height: 88px;
+	color:white;
+}
+/*selects spans for bolder orange*/
+.orange{
+	font-weight: bolder;
+	font-size: 48px;
+}
+/*selects span for font size on juice*/
+.juice{
+	font-weight: lighter;
+	font-size: 48px;
+}
+div.ojtop{
+	display: inline-block;
+	margin-right: 50px;
+}
+/*select ul for nav bar*/
+ul.navs{
+	text-decoration: none;
+	display: inline-block;
+	text-align: right;
+	font-size: 34px;
+	font-weight: bold;
+	float: right;
+	transition: all 2s linear;
+	margin: 20px;
+}
+/*targets the list elements*/
+ul.navs li{
+	display: inline-block;
+	padding: 0px 30px;
+}
+/*hover effect for nav bar*/
+ul.navs li:hover{
+	font-size:42px;
+	border:2px solid #7ACCC8;
+}
+/*target for searchbar*/
+div.search{
+	display:block;
+	float:right;
+	border:2px solid #7ACCC8;
+	margin:5px;
+}
+/*targets the body section*/
+div.body{
+	display: inline-block;
+}
+/*targets the image of the orange*/
+.ojimg{
+	height: 400px;
+	width: 420px;
+	padding-left: 200px
+}
+/*targets the bodytext*/
+p.bodytext{
+	font-size:58px;
+	display: inline-block;
+	color: #FE7E00;
+	position: relative;
+	bottom: 170px;
+	left: 130px;
+}
+/*span for web and app*/
+span.web, span.app{
+	color: #7ACCC8;
+	font-weight:bolder;
+}
+/*targets div of buttons*/
+div.buttons{
+	display: inline-block;
+	color: white;
+	font-size:28px;
+	position: relative;
+	bottom: 150px;
+	left:47%;
+}
+/*targets quote button*/
+button.quotebtn{
+	background-color: #FE7E00; 
+	border:none;
+	padding:20px;
+	margin:20px 0;
+}
+/*targets vase studies button*/
+button.studiesbtn{
+	background-color: #7ACCC8;
+	border:none;
+	padding:20px;
+	margin:20px 0;
+}
+div.footer{
+	height:88px;
+	background-color: #7ACCC8;
+}
+footer div.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  height:88px;
+}
+
